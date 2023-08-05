@@ -1,21 +1,22 @@
-# 📦 LLM ChatBot
-```
-⬆️ (Replace above with your app's name)
-```
+# FeelBot a LLM app
+This app is designed using an open-source, no-cost LLM model OpenAssistant/oasst-sft-6-llama-30b-xor from the unofficial HuggingChat API known as HugChat.
 
-Description of the app ...
+Interact with the app: 
+- Sidebar accepts the login credential
 
-## Demo App
+  
+- The Main panel displays conversational messages:
+  - Enter your prompt into the text input box
+  - Read the human/bot messages.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://starter-kit.streamlitapp.com/)
+## Try FeelBot app: https://feelbot.streamlit.app/
+The app is deployed on Streamlit.
 
-## Section Heading
+You need to log in first using your Hugginface user-mail, and password.
 
-This is filler text, please replace this with text for this section.
 
-## Further Reading
+## This app is built using the following Python libraries:
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+- [ Streamlit ](https://streamlit.io/)
+- [ HugChat ](https://github.com/Soulter/hugging-chat-api)
+- [ OpenAssistant/oasst-sft-6-llama-30b-xor LLM model ](https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b-xor)
